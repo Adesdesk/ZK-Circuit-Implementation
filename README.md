@@ -1,6 +1,8 @@
 # ZK-Circuit-Implementation
 
-Using the [hardhat-circom](https://github.com/projectsophon/hardhat-circom) template to generate zero-knowledge circuits, proofs, and solidity verifiers. This program implements the following logical gate, with the goal to prove knowledge of the inputs A (0) & B (1) that yield a 0 output.
+Using the [hardhat-circom](https://github.com/projectsophon/hardhat-circom) template to generate zero-knowledge circuits, proofs, 
+and solidity verifiers. This program implements the following logical gate, with the goal to prove knowledge of the inputs A (0) 
+& B (1) that yield a 0 output.
 ```
 Logical gate:
 'A' and 'B' are the two input signals to the circuit.
@@ -19,7 +21,8 @@ Compile the crafteradesdeskcircuit() circuit and verify it against a smart contr
 ```
 pragma circom 2.0.0;
 
-/*This circuit implementation builds upon the hardhat-circum template by zardkat proves knowledge of the inputs A (0) & B (1) that yield a 0 output.*/  
+/*This circuit implementation builds upon the hardhat-circum template by zardkat proves knowledge of the inputs A (0) & B (1) that
+yield a 0 output.*/  
 
 template CrafterAdesdeskCircuit() {  
    
