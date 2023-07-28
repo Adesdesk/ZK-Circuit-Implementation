@@ -21,7 +21,7 @@ pragma circom 2.0.0;
 
 /*This circuit implementation builds upon the hardhat-circum template by zardkat proves knowledge of the inputs A (0) & B (1) that yield a 0 output.*/  
 
-template crafteradesdeskcircuit () {  
+template CrafterAdesdeskCircuit() {  
    
    // signal inputs
    signal input a;
@@ -34,7 +34,7 @@ template crafteradesdeskcircuit () {
    // final signal outputs
    signal output q;
 
-   // component gates used to create crafteradesdeskcircuit circuit  
+   // component gates used to create CrafterAdesdeskCircuit circuit  
    component andGate = AND();
    component notGate = NOT();
    component orGate = OR();
@@ -75,14 +75,14 @@ template NOT() {
 
     out <== 1 + in - 2*in;
 }
-component main = crafteradesdeskcircuit();
+component main = CrafterAdesdeskCircuit();
 ```
 ### Install
 `npm i`
 
 ### Compile
 `npx hardhat circom` 
-This will generate the **out** file with circuit intermediaries and geneate the **crafteradesdeskcircuit.sol** contract
+This will generate the **out** file with circuit intermediaries and geneate the **CrafterAdesdeskCircuit.sol** contract
 
 ### Prove and Deploy
 `npx hardhat run scripts/deploy.ts`
