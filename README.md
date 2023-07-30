@@ -1,6 +1,8 @@
 # Project Title
 ZK-Circuit-Implementation
 
+## Description
+
 Using the [hardhat-circom](https://github.com/projectsophon/hardhat-circom) template to generate zero-knowledge circuits, proofs, 
 and solidity verifiers. This program implements the following logical gate, with the goal to prove knowledge of the inputs A (0) 
 & B (1) that yield a 0 output.
